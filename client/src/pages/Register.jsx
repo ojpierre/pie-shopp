@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import { mobile } from "../responsive";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   width: 100vw;
@@ -68,6 +69,9 @@ const Register = () => {
             By creating an account, I consent to the processing of my personal
             data with the <b>PRIVACY POLICY</b>
           </Agreement>
+          <Link to path="/login">
+            <Button>LOGIN</Button>
+          </Link>
           <Button>CREATE</Button>
         </Form>
       </Wrapper>
