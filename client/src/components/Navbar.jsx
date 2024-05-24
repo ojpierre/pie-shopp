@@ -97,14 +97,14 @@ function Navbar() {
     <Container>
       <Wrapper>
         <Left>
-          <Language>EN</Language>
+          <Language>ENG</Language>
           <SearchContainer>
             <Search style={{ color: "gray", fontSize: 16 }} />
             <Input placeholder="Search" />
           </SearchContainer>
         </Left>
         <Centre>
-          <Logo>PIERRE.</Logo>
+          <Logo>PIERRE</Logo>
         </Centre>
         <Right>
           <Link to="/register">
@@ -114,7 +114,7 @@ function Navbar() {
             <MenuItem>Sign In</MenuItem>
           </Link>
           <Link to="/cart">
-            <MenuItem>
+            <MenuItem> 
               <Badge badgeContent={quantity} color="primary">
                 <ShoppingCartOutlined />
               </Badge>
