@@ -104,7 +104,9 @@ function Navbar() {
           </SearchContainer>
         </Left>
         <Centre>
-          <Logo>PIERRE</Logo>
+          <Link to="/">
+            <Logo>PIERRE</Logo>
+          </Link>
         </Centre>
         <Right>
           <Link to="/register">
@@ -114,7 +116,7 @@ function Navbar() {
             <MenuItem>Sign In</MenuItem>
           </Link>
           <Link to="/cart">
-            <MenuItem> 
+            <MenuItem>
               <Badge badgeContent={quantity} color="primary">
                 <ShoppingCartOutlined />
               </Badge>
